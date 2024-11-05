@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U2-W2-D2 - Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary px-5">
+    <div class="container">
+        <img src="https://e7.pngegg.com/pngimages/14/790/png-clipart-travel-company-logo-thumbnail.png"
+            class="img-fluid" style="width: 50px;" alt="logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li id="Home" class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#saldi">Saldi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#welcome-summer">Welcome Summer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#last-minute">Last Minute</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#recensioni">Recensioni</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Cerca posti da sogno" aria-label="Search">
+                <button class="btn btn-outline-danger" type="submit">Cerca</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<!-- Introduzione -->
+<section id="home" class="rounded-3 mt-4">
+    <div class="container bg-light p-5">
+        <div class="d-flex align-items-center mb-3">
+            <h1 class="me-3 text-secondary fw-normal">Viaggia con Noi</h1>
+            <span class="lead text-secondary">- Scopri le migliori destinazioni per il tuo prossimo viaggio!</span>
+        </div>
+        <hr class="my-4 border-2">
+        <p class="fst-italic text-secondary">Un'agenzia di viaggi che ti porta in luoghi da sogno.</p>
+        <a href="#saldi" class="btn btn-info text-white fw-bold">Prenota ora</a>
+    </div>
+</section>
+
+
+<!-- Saldi -->
+<section id="saldi" class="container py-5">
+    <h2 class="mb-4">Saldi</h2>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+        <div class="col">
+            <div class="card card-custom border border-2 border-info">
+                <img src="https://serendipitsite.com/wp-content/uploads/2021/03/photo-1541427468627-a89a96e5ca1d.jpg"
+                    class="card-img-top rounded" alt="Destinazione 1">
+                <div class="card-body">
+                    <h5 class="card-title">Destinazione 1</h5>
+                    <p class="card-text">Un posto da sogno, perfetto per la tua vacanza.</p>
+                    <a href="#" class="btn btn-info">Prenota</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card card-custom border border-2 border-info">
+                <img src="https://serendipitsite.com/wp-content/uploads/2021/03/photo-1541427468627-a89a96e5ca1d.jpg"
+                    class="card-img-top rounded" alt="Destinazione 2">
+                <div class="card-body">
+                    <h5 class="card-title">Destinazione 2</h5>
+                    <p class="card-text">Scopri il meglio di questa destinazione esclusiva.</p>
+                    <a href="#" class="btn btn-info">Prenota</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card card-custom border border-2 border-info">
+                <img src="https://serendipitsite.com/wp-content/uploads/2021/03/photo-1541427468627-a89a96e5ca1d.jpg"
+                    class="card-img-top rounded" alt="Destinazione 3">
+                <div class="card-body">
+                    <h5 class="card-title">Destinazione 3</h5>
+                    <p class="card-text">Un viaggio persi nella natura ti aspetta!</p>
+                    <a href="#" class="btn btn-info">Prenota</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card card-custom border border-2 border-info">
+                <img src="https://serendipitsite.com/wp-content/uploads/2021/03/photo-1541427468627-a89a96e5ca1d.jpg"
+                    class="card-img-top rounded" alt="Destinazione 4">
+                <div class="card-body">
+                    <h5 class="card-title">Destinazione 4</h5>
+                    <p class="card-text">Perfetto per chi ama l'avventura e il relax.</p>
+                    <a href="#" class="btn btn-info">Prenota</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Welcome Summer -->
+<section id="welcome-summer" class="container py-5">
+    <h2 class="mb-4">Welcome Summer</h2>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card shadow-lg position-relative">
+                <img src="https://nuovoeutile.it/wp-content/uploads/2023/08/IMG_7640-scaled-e1693391643570.jpeg"
+                    class="card-img-top rounded" alt="Summer 1">
+                <div class="position-absolute top-0 end-0 m-2 px-3 py-1 text-white fw-bold bg-danger rounded">
+                    HOT
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Destinazione Estate 1</h5>
+                    <p class="card-text">Un luogo perfetto per rilassarsi sotto il sole.</p>
+                    <a href="#" class="btn btn-info">Prenota</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card shadow-lg position-relative">
+                <img src="https://nuovoeutile.it/wp-content/uploads/2023/08/IMG_7640-scaled-e1693391643570.jpeg"
+                    class="card-img-top rounded" alt="Summer 2">
+                <div class="position-absolute top-0 end-0 m-2 px-3 py-1 text-white fw-bold bg-danger rounded">
+                    HOT
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Destinazione Estate 2</h5>
+                    <p class="card-text">Un angolo di paradiso per la tua estate.</p>
+                    <a href="#" class="btn btn-info">Prenota</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card shadow-lg position-relative">
+                <img src="https://nuovoeutile.it/wp-content/uploads/2023/08/IMG_7640-scaled-e1693391643570.jpeg"
+                    class="card-img-top rounded" alt="Summer 3">
+                <div class="position-absolute top-0 end-0 m-2 px-3 py-1 text-white fw-bold bg-danger rounded">
+                    HOT
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Destinazione Estate 3</h5>
+                    <p class="card-text">La vacanza dei tuoi sogni ti aspetta.</p>
+                    <a href="#" class="btn btn-info">Prenota</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mt-4">
+        <div class="col">
+            <div class="card shadow-lg position-relative">
+                <img src="https://nuovoeutile.it/wp-content/uploads/2023/08/IMG_7640-scaled-e1693391643570.jpeg"
+                    class="card-img-top rounded" alt="Summer 4">
+                <div class="position-absolute top-0 end-0 m-2 px-3 py-1 text-white fw-bold bg-danger rounded">
+                    HOT
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Destinazione Estate 4</h5>
+                    <p class="card-text">Vivi l'estate più bella della tua vita.</p>
+                    <a href="#" class="btn btn-info">Prenota</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card shadow-lg position-relative">
+                <img src="https://nuovoeutile.it/wp-content/uploads/2023/08/IMG_7640-scaled-e1693391643570.jpeg"
+                    class="card-img-top rounded" alt="Summer 5">
+                <div class="position-absolute top-0 end-0 m-2 px-3 py-1 text-white fw-bold bg-danger rounded">
+                    HOT
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Destinazione Estate 5</h5>
+                    <p class="card-text">Scopri il posto perfetto per il tuo relax.</p>
+                    <a href="#" class="btn btn-info">Prenota</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card shadow-lg position-relative">
+                <img src="https://nuovoeutile.it/wp-content/uploads/2023/08/IMG_7640-scaled-e1693391643570.jpeg"
+                    class="card-img-top rounded" alt="Summer 6">
+                <div class="position-absolute top-0 end-0 m-2 px-3 py-1 text-white fw-bold bg-danger rounded">
+                    HOT
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Destinazione Estate 6</h5>
+                    <p class="card-text">Esplora nuove terre con noi.</p>
+                    <a href="#" class="btn btn-info">Prenota</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Offerta del Giorno -->
+<section id="offerta-del-giorno" class="container py-5 d-none d-md-block">
+    <div class="row">
+        <h2 class="mb-4">Offerta del giorno</h2>
+        <div class="col-md-8">
+            <img src="https://www.pianetagaia.it/thumbs/934765/1920/880/principale-namibia-3-sossu-Essentia-1920px-copia.jpg"
+                class="img-fluid rounded shadow-sm" alt="Offerta del giorno">
+        </div>
+        <div class="col-md-4">
+            <h3 class="display-4">Destinazione da Sogno</h3>
+            <p class="font-monospace">01.12.2024 - 15.12.2024</p>
+            <p class="lead">€599</p>
+            <span class="badge bg-dark text-white">Best Offer</span>
+        </div>
+    </div>
+</section>
+
+<!-- Last Minute -->
+<section id="last-minute" class="container py-5">
+    <h2 class="mb-4">Last Minute</h2>
+    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-4">
+        <div class="col">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmMw564K0Zo0uPwUp0S-W-7ve6Lox6OwkQ8g&s"
+                class="img-fluid rounded shadow-sm" alt="Last Minute 1">
+        </div>
+        <div class="col">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmMw564K0Zo0uPwUp0S-W-7ve6Lox6OwkQ8g&s"
+                class="img-fluid rounded shadow-sm" alt="Last Minute 2">
+        </div>
+        <div class="col">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmMw564K0Zo0uPwUp0S-W-7ve6Lox6OwkQ8g&s"
+                class="img-fluid rounded shadow-sm" alt="Last Minute 3">
+        </div>
+        <div class="col">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmMw564K0Zo0uPwUp0S-W-7ve6Lox6OwkQ8g&s"
+                class="img-fluid rounded shadow-sm" alt="Last Minute 4">
+        </div>
+        <div class="col">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmMw564K0Zo0uPwUp0S-W-7ve6Lox6OwkQ8g&s"
+                class="img-fluid rounded shadow-sm" alt="Last Minute 5">
+        </div>
+        <div class="col">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmMw564K0Zo0uPwUp0S-W-7ve6Lox6OwkQ8g&s"
+                class="img-fluid rounded shadow-sm" alt="Last Minute 6">
+        </div>
+    </div>
+</section>
+
+
+<!-- Recensioni -->
+<section id="recensioni" class="container py-5">
+    <h2 class="text-center mb-4">Dicono di noi</h2>
+    <div class="d-flex mb-3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRb-xK5tleXRvT3gnq4cL-7VPxpyJ-JkKGu64cGfshPBOkgCk0GZJuGCvwMfR1jenSy_E&usqp=CAU"
+            class="rounded-circle me-3 border border-info" alt="User 1" style="width: 50px; height: 50px;">
+        <div>
+            <h5>Giulia R.</h5>
+            <p>"Esperienza fantastica, tutto perfetto!"</p>
+        </div>
+    </div>
+    <div class="d-flex mb-3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRb-xK5tleXRvT3gnq4cL-7VPxpyJ-JkKGu64cGfshPBOkgCk0GZJuGCvwMfR1jenSy_E&usqp=CAU"
+            class="rounded-circle me-3 border border-info" alt="User 2" style="width: 50px; height: 50px;">
+        <div>
+            <h5>Marco T.</h5>
+            <p>"Un viaggio che non dimenticherò mai!"</p>
+        </div>
+    </div>
+    <div class="d-flex mb-3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRb-xK5tleXRvT3gnq4cL-7VPxpyJ-JkKGu64cGfshPBOkgCk0GZJuGCvwMfR1jenSy_E&usqp=CAU"
+            class="rounded-circle me-3 border border-info" alt="User 2" style="width: 50px; height: 50px;">
+        <div>
+            <h5>Gino P.</h5>
+            <p>"E' stata un'esperienza indimenticabile, consigliata anche per i più giovani!"</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+        <a href="#contact" class="btn btn-outline-light rounded-2 mb-3"
+            style="border-color: #636E74; color: #636E74;">Contattaci</a>
+        <div>
+            <p>&copy; 2024 Agenzia di Viaggi Sogno. Tutti i diritti riservati.</p>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
